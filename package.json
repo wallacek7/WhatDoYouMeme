@@ -1,0 +1,19 @@
+{
+  "name": "whatdoyoumeme",
+  "version": "1.0.0",
+  "description": "In-class project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallacek7/WhatDoYouMeme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallacek7/WhatDoYouMeme/issues"
+  },
+  "homepage": "https://github.com/wallacek7/WhatDoYouMeme#readme"
+}
