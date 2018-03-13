@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/wallacek7/WhatDoYouMeme/issues"
   },
-  "homepage": "https://github.com/wallacek7/WhatDoYouMeme#readme"
+  "homepage": "https://github.com/wallacek7/WhatDoYouMeme#readme",
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
 }
