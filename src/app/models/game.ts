@@ -8,11 +8,15 @@ export class Game{
         "There are two extremes"
     ];
     
-    Players: User[] = [];
+    Players: User[] = [
+        { Name: 'Kayla' }
+    ];
 
     Picture: string = 'https://media3.s-nbcnews.com/j/msnbc/components/video/201803/tdy_news_welker_trump_180315_1920x1080.nbcnews-ux-1240-700.jpg';
 
-    PlayedQuotes: Quote[] = [];
+    PlayedQuotes: Quote[] = [
+        
+    ];
 }
 
 export class User {
