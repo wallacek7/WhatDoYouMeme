@@ -1,42 +1,21 @@
-<app-nav></app-nav>
-<div class="container">
-	<app-messages></app-messages>
-	<app-home></app-home>
-</div>
-<div class="container">
-	<nav class="WhatDoYouMeme WhatDoYouMeme-expand-sm "WhatDoYouMeme WhatDoYouMeme-light" style="background-color: #e3f2fd;"">
-			<a class="WhatDoYouMeme-brand" href="#">WhatDoYouMeme</a>
-			<button class="WhatDoYouMeme-toggler" type="button" data-toggle="collapse" data-target="#WhatDoYouMemeSupportedContent" aria-controls="WhatDoYouMemeSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="WhatDoYouMeme-toggler-icon"></span>
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+	<div class="container">
+			<a class="navbar-brand" href="#">What Do You MEME?</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 			</button>
-		  
-			<div class="collapse WhatDoYouMeme-collapse" id="WhatDoYouMemeSupportedContent">
-			  <ul class="WhatDoYouMeme-nav mr-auto">
-				<li class="nav-item">
-				  <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" routerLink="/game">Play</a>
-				</li>
-				<li class="nav-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" id="WhatDoYouMemeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Dropdown
-				  </a>
-				  <div class="dropdown-menu" aria-labelledby="WhatDoYouMemeDropdown">
-					<a class="dropdown-item" href="#">Action</a>
-					<a class="dropdown-item" href="#">Another action</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Something else here</a>
-				  </div>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link disabled" href="#">Disabled</a>
-				</li>
-			  </ul>
-			  <form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			  </form>
+			<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+							<li class="nav-item">
+							<a class="nav-link" routerLink="/home" routerLinkActive="active">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link" routerLink="/game" routerLinkActive="active">Play</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link disabled" href="#">Disabled</a>
+							</li>
+					</ul>
+					</div>
 			</div>
-		  </nav>
-</div>
+</nav>

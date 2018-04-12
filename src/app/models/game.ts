@@ -1,6 +1,4 @@
 
-
-
 export class Game{
     MyQuotes: string[] = [
         "Great minds think alike, but ...",
